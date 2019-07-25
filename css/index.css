@@ -1,0 +1,138 @@
+@font-face {
+	font-family: 'aslim';
+	src: url('aslim.otf') format('opentype');
+}
+@font-face {
+	font-family: 'asuperslim';
+	src: url('asuperslim.otf') format('opentype');
+}
+
+
+body {
+	background-color: #222;
+    font-family: 'aslim', monospace;
+    line-height: 1.5em;
+    font-size: 18pt;
+
+    color: #CCCCCC;
+    padding: 2em;
+    margin: 0;
+    max-width: 999px;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #FF9629;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#header-wrapper {
+    padding: 0;
+}
+
+#header {
+    display: table;
+    height: 140px;
+}
+
+#title-block {
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#title {
+    margin: 0;
+    margin-bottom: 1ex;
+}
+
+#subtitle {
+    margin: 0;
+}
+
+#myphoto {
+    float: left;
+    height: 140px;
+    padding-right: 2em;
+
+}
+
+#content {
+
+    text-align: justify; 
+    text-justify: newspaper;
+}
+
+h1, h2, h3, h4 {
+    color: #FFCB94
+;
+    line-height: 1.1em;
+    font-weight: normal;
+}
+
+h2 {
+    margin-bottom: 1ex;
+}
+
+
+
+.clear { 
+    clear: both;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+li {
+    margin-bottom: 1ex;
+}
+
+ul li:before {
+    color: #AAAAAA;
+    content: "\00BB \0020";
+}
+
+.email { 
+}
+
+.paper {
+    text-align: left;
+}
+
+.paper-authors {
+
+}
+
+.paper-title {
+    font-weight: bold;
+}
+
+.paper-publisher {
+    font-style: italic;
+
+}
+
+.paper-links {
+    font-size: 87%;
+}
+
+.ant {
+	font-size: 33%;
+}
+
+.where-published {
+	font-weight: normal;
+	font-style: italic;
+}
