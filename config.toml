@@ -1,19 +1,18 @@
-
 publishDir = "."
 baseURL = "https://johncalab.github.io/"
 languageCode = "en-us"
 theme = "aafu"
 
 [params]
-    title = "Aafu theme"
-    author = "Darshan Baral"
-    description = "Website title"
-    copyright = "aaa"
+    title = "John Calabrese"
+    author = ""
+    description = "personal website"
+#    copyright = "aaa"
     
     [params.theme]
         allowToggle = true
-        mainTheme = "light"
-        altTheme = "dark"
+        mainTheme = "dark"
+        altTheme = "light"
 
    [params.favicons]
         use = true
@@ -28,9 +27,9 @@ theme = "aafu"
 
     # Profile section
     [params.profile]
-        name = "First Last, Abbr."
-        tagline = "Title"
-        location = "City Name, ST"
+        name = "John Calabrese"
+        #tagline = "Title"
+        #location = "City Name, ST"
         photo = "profile.jpg"
 
     # Section for links to social websites
