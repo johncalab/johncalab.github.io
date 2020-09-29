@@ -1,0 +1,49 @@
+baseURL = "https://example.com"
+title = "John Calabrese"
+theme = "m10c"
+paginate = 5
+
+[params]
+  author = "John Calabrese"
+  description = ""
+  avatar = "/john.jpg"
+  landingFontSize = "18pt"
+
+  [params.style]
+  fontSize = "14pt"
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/johncalab"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/johncalab/"
+
+  [[params.social]]
+    name = "mail"
+    url = "mailto:calabrese.work@gmail.com"
+
+  # Brown theme
+  #[params.style]
+  #  darkestColor = "#463625"
+  #  darkColor = "#2a3738"
+  #  primaryColor = "#eeee6a"
+  #  lightColor = "#96a879"
+  #  lightestColor = "#ffffff"
+
+  # Green theme
+  #[params.style]
+  #  darkestColor = "#315659"
+  #  darkColor = "#253031"
+  #  primaryColor = "#dad865"
+  #  lightColor = "#96a879"
+  #  lightestColor = "#fff"
+
+  # Red and black theme
+  #[params.style]
+  #  darkestColor = "#d35050"
+  #  darkColor = "#212121"
+  #  primaryColor = "#ffffff"
+  #  lightColor = "#a2a2a2"
+  #  lightestColor = "#d3d3d3"
